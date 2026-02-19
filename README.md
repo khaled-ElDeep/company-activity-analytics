@@ -42,5 +42,3 @@ Primary Key:
 - is_churn_risk (40% drop vs previous 7 days)  
 
 ---
-
-## Repository Structure

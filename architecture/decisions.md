@@ -29,17 +29,8 @@ Because:
 
 ---
 
-## 3. Why Calculate Rolling Metrics in SQL?
 
-Reasons:
-- Databases are optimized for window functions
-- Avoid heavy BI recalculations
-- Ensures consistent business logic
-- Better performance at scale
-
----
-
-## 4. Why Store Raw API JSON?
+## 3. Why Store Raw API JSON?
 
 Because:
 - API schema may change
@@ -48,22 +39,3 @@ Because:
 - Supports audit and traceability
 
 ---
-
-## 5. Why Use Composite Primary Key?
-
-(company_id, activity_date)
-
-Ensures:
-- No duplicate daily records
-- Correct grain enforcement
-- Clean incremental loads
-
----
-
-## 6. What Was Deferred (Time Constraints)?
-
-- Data quality checks
-- Automated backfill
-- Monitoring dashboard
-- Partition strategy
-- CI/CD deployment automation

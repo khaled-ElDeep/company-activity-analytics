@@ -13,15 +13,7 @@ The goal is to build an analytics-ready fact table to power a Company Activity d
 
 ## Architecture Diagram
 
-### High-Level Architecture
 
-![Architecture Overview](architecture/architecture_overview.png)
-
-### ADF Pipeline Flow
-
-![ADF Pipeline](architecture/adf_pipeline_flow.png)
-
----
 
 ## Data Flow
 
